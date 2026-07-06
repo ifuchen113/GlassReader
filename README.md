@@ -67,6 +67,7 @@ The source code is **currently not open-sourced**.
 一款专注于本地阅读体验的轻量级原生 macOS 阅读器。
 
 GlassReader 是一款免费的 macOS 阅读器，可用于阅读漫画、PDF 文档、图片以及各种压缩包文件，拥有简洁的界面、流畅的阅读体验以及完全离线的本地阅读方式。
+<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/16fa8a25-c592-4104-9418-61bfdc2f54c5" />
 
 ---
 
@@ -105,6 +106,7 @@ GlassReader 是一款免费的 macOS 阅读器，可用于阅读漫画、PDF 文
 - JPG
 - PNG
 - WebP
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/b612ccd7-77cb-4fbb-b950-06a5c9bb5e2f" />
 
 ---
 
