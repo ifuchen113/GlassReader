@@ -22,6 +22,7 @@ GlassReader is a free native macOS application for reading comics, PDF documents
 - 🖥️ Native full-screen reading experience
 - 🍎 Built exclusively for macOS
 <img width="1360" height="864" alt="截屏2026-07-06 16 04 05" src="https://github.com/user-attachments/assets/8bb67251-9a26-4638-be86-af9332dafce3" />
+<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/3d78efc7-7e61-48bf-84e8-fe2ca977fba8" />
 
 ---
 
@@ -71,6 +72,7 @@ GlassReader 是一款免费的 macOS 阅读器，可用于阅读漫画、PDF 文
 - 🖥️ 原生 macOS 全屏阅读体验
 - 🍎 专为 macOS 打造
 <img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/5ce24f6a-257a-4cde-b91e-830f29f7748c" />
+<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/8cbba51f-1df8-4059-83ad-01f239f42f4d" />
 
 ---
 
