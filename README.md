@@ -106,7 +106,7 @@ GlassReader 是一款免费的 macOS 阅读器，可用于阅读漫画、PDF 文
 - JPG
 - PNG
 - WebP
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/b612ccd7-77cb-4fbb-b950-06a5c9bb5e2f" />
+<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/5ce24f6a-257a-4cde-b91e-830f29f7748c" />
 
 ---
 
