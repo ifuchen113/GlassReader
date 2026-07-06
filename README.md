@@ -60,7 +60,7 @@ The source code is **currently not open-sourced**.
 
 ---
 
-# GlassReader 玻璃阅读器
+# GlassReader阅读器
 
 一款专注于本地阅读体验的轻量级原生 macOS 阅读器。
 
