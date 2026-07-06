@@ -16,14 +16,7 @@ GlassReader is a free native macOS application for reading comics, PDF documents
 - 📖 Single-page & Double-page reading
 - ↔️ Left-to-right & Right-to-left reading modes
 - 🌍 Multi-language interface
-  - English
-  - 中文
-  - 日本語
-  - 한국어
-  - Русский
-  - Français
-  - Deutsch
-  - Español
+  - English、中文、日本語、한국어、Русский、Français、Deutsch、Español
 - 🕘 Reading history
 - ▶️ Auto Play (Slide Show)
 - 🖥️ Native full-screen reading experience
@@ -34,15 +27,7 @@ GlassReader is a free native macOS application for reading comics, PDF documents
 
 ## Supported Formats
 
-- Folder
-- ZIP
-- CBZ
-- RAR
-- 7Z
-- PDF
-- JPG
-- PNG
-- WebP
+- Folder、ZIP、CBZ、RAR、7Z、PDF、JPG、PNG、WebP
 
 ---
 
@@ -80,33 +65,18 @@ GlassReader 是一款免费的 macOS 阅读器，可用于阅读漫画、PDF 文
 - 📖 支持单页 / 双页阅读模式
 - ↔️ 支持左右阅读方向切换
 - 🌍 支持多语言界面
-  - English
-  - 中文
-  - 日本語
-  - 한국어
-  - Русский
-  - Français
-  - Deutsch
-  - Español
+  - English、中文、日本語、한국어、Русский、Français、Deutsch、Español
 - 🕘 阅读历史记录
 - ▶️ 自动播放（幻灯片）
 - 🖥️ 原生 macOS 全屏阅读体验
 - 🍎 专为 macOS 打造
+<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/5ce24f6a-257a-4cde-b91e-830f29f7748c" />
 
 ---
 
 ## 支持格式
 
-- 文件夹
-- ZIP
-- CBZ
-- RAR
-- 7Z
-- PDF
-- JPG
-- PNG
-- WebP
-<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/5ce24f6a-257a-4cde-b91e-830f29f7748c" />
+- 文件夹、ZIP、CBZ、RAR、7Z、PDF、JPG、PNG、WebP
 
 ---
 
