@@ -3,6 +3,7 @@
 A lightweight native macOS reader designed for local reading.
 
 GlassReader is a free native macOS application for reading comics, PDF documents, images and compressed archives. It focuses on a clean interface, smooth reading experience and complete offline privacy.
+<img width="1360" height="864" alt="截屏2026-07-06 16 01 31" src="https://github.com/user-attachments/assets/ff0840f0-ba89-47fa-9784-d9984b2475db" />
 
 ---
 
@@ -41,7 +42,6 @@ GlassReader is a free native macOS application for reading comics, PDF documents
 - JPG
 - PNG
 - WebP
-<img width="1360" height="864" alt="截屏2026-07-06 15 59 32" src="https://github.com/user-attachments/assets/07e68707-e645-4396-af01-0dca5225d6f3" />
 
 ---
 
