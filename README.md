@@ -38,12 +38,12 @@ Download the latest release from the **Releases** page.
 
 ## License
 
-GlassReader is licensed under the **MIT License**.
+Copyright (C) 2026 Chen Yifu (ifuchen113)
 
-You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, provided that the original copyright notice and this license are included.
-
-See the `LICENSE` file for the complete license text.
-
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 ---
 
 # GlassReader阅读器
@@ -86,8 +86,9 @@ GlassReader 是一款免费使用的 macOS 阅读器，可用于阅读漫画、P
 
 ## 许可证
 
-GlassReader 使用 **MIT License** 发布。
+版权所有 © 2026 陈毅夫（GitHub：ifuchen113）
 
-任何人均可自由使用、复制、修改、合并、发布、分发、再授权及商业使用本项目，但必须保留原始版权声明及 MIT 许可证。
-
-完整许可协议请参阅仓库中的 `LICENSE` 文件。
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
