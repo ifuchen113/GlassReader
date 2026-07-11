@@ -2,7 +2,7 @@
 
 A lightweight native macOS reader designed for local reading.
 
-GlassReader is a free native macOS application for reading comics, PDF documents, images and compressed archives. It focuses on a clean interface, smooth reading experience and complete offline privacy.
+GlassReader is a free-to-use native macOS application for reading comics, PDF documents, images, and compressed archives.
 <img width="1360" height="864" alt="截屏2026-07-06 16 01 31" src="https://github.com/user-attachments/assets/ff0840f0-ba89-47fa-9784-d9984b2475db" />
 
 ---
@@ -21,8 +21,6 @@ GlassReader is a free native macOS application for reading comics, PDF documents
 - ▶️ Auto Play (Slide Show)
 - 🖥️ Native full-screen reading experience
 - 🍎 Built exclusively for macOS
-<img width="1360" height="864" alt="截屏2026-07-06 16 04 05" src="https://github.com/user-attachments/assets/8bb67251-9a26-4638-be86-af9332dafce3" />
-<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/3d78efc7-7e61-48bf-84e8-fe2ca977fba8" />
 
 ---
 
@@ -34,17 +32,24 @@ GlassReader is a free native macOS application for reading comics, PDF documents
 
 ## Download
 
-Download the latest version from the **Releases** page.
+Download the latest release from the **Releases** page.
 
 ---
 
 ## License
 
-GlassReader is distributed as a **free macOS application**.
+GlassReader is distributed under the **GlassReader Non-Commercial License 1.0 (GNCL-1.0)**.
 
-The application is publicly available.
+You are free to:
 
-The source code is **currently not open-sourced**.
+- Use GlassReader for personal, educational, and research purposes.
+- View and study the source code.
+- Modify the source code for personal and non-commercial use.
+- Share the software for non-commercial purposes.
+
+Commercial use, redistribution for profit, and incorporation into commercial products or services are prohibited without prior written permission from the copyright holder.
+
+See the `LICENSE` file for the complete license terms.
 
 ---
 
@@ -52,7 +57,7 @@ The source code is **currently not open-sourced**.
 
 一款专注于本地阅读体验的轻量级原生 macOS 阅读器。
 
-GlassReader 是一款免费的 macOS 阅读器，可用于阅读漫画、PDF 文档、图片以及各种压缩包文件，拥有简洁的界面、流畅的阅读体验以及完全离线的本地阅读方式。
+GlassReader 是一款免费使用的 macOS 阅读器，可用于阅读漫画、PDF 文档、图片以及各种压缩包文件，拥有简洁的界面、流畅的阅读体验以及完全离线的本地阅读方式。
 <img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/16fa8a25-c592-4104-9418-61bfdc2f54c5" />
 
 ---
@@ -71,8 +76,6 @@ GlassReader 是一款免费的 macOS 阅读器，可用于阅读漫画、PDF 文
 - ▶️ 自动播放（幻灯片）
 - 🖥️ 原生 macOS 全屏阅读体验
 - 🍎 专为 macOS 打造
-<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/5ce24f6a-257a-4cde-b91e-830f29f7748c" />
-<img width="1360" height="864" alt="image" src="https://github.com/user-attachments/assets/8cbba51f-1df8-4059-83ad-01f239f42f4d" />
 
 ---
 
@@ -90,8 +93,20 @@ GlassReader 是一款免费的 macOS 阅读器，可用于阅读漫画、PDF 文
 
 ## 许可证
 
-GlassReader 为一款免费的 macOS 应用程序。
+GlassReader 采用 **GlassReader Non-Commercial License 1.0（GNCL-1.0）** 发布。
 
-目前提供应用程序下载。
+您可以：
 
-源代码暂未开源。
+- 免费用于个人、教育及研究用途；
+- 查看和学习源代码；
+- 修改源代码（仅限个人及非商业用途）；
+- 在非商业前提下分享本软件。
+
+未经版权所有者书面授权，禁止任何商业用途，包括但不限于：
+
+- 销售软件；
+- 收费分发；
+- 将本软件或源代码用于商业产品或商业服务；
+- 任何以盈利为目的的使用。
+
+完整许可协议请参阅仓库中的 `LICENSE` 文件。
