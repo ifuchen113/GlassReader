@@ -1,44 +1,45 @@
 # GlassReader
 
-A lightweight native macOS reader designed for local reading.
+A lightweight native macOS reader for comics, PDFs, images, and compressed archives.
 
-GlassReader is a free-to-use native macOS application for reading comics, PDF documents, images, and compressed archives. It provides a clean interface for local reading.
-<img width="1470" height="923" alt="image" src="https://github.com/user-attachments/assets/0b53198f-2ea8-48d3-aa46-243c6a655e5e" />
+GlassReader is a free and open-source macOS application designed for reading local files. It provides a clean native interface, flexible page display modes, multi-tab support, reading progress memory, and immersive fullscreen reading.
+
+<img width="1470" height="923" alt="GlassReader main interface" src="https://github.com/user-attachments/assets/0b53198f-2ea8-48d3-aa46-243c6a655e5e" />
 
 ---
 
 ## Features
 
-- Open local folders, files, and supported archives
+- Open local folders, individual files, and supported archives
 - Drag and drop files directly into the reader
-- Read ZIP / CBZ / RAR / 7Z archives
-- Password-protected archive support
-- PDF document support
-- JPG / JPEG / PNG / WebP / GIF / BMP / TIFF / HEIC image support
+- Read ZIP, CBZ, RAR, and 7Z archives
+- Open password-protected archives
+- Read PDF documents
+- View JPG, JPEG, PNG, WebP, GIF, BMP, TIFF, and HEIC images
 - Single-page and double-page reading modes
-- Normal left-to-right and manga right-to-left reading modes
+- Left-to-right and manga-style right-to-left reading
 - Five image display modes:
   - Fit Screen
   - Fit Width
   - Original Size
   - Fill Screen
   - Smart Fit
-- Multi-tab reading, with tabs restored after relaunch
+- Multi-tab reading with tab restoration after relaunch
 - Per-file reading progress memory
-- Per-file single/double-page and reading-direction memory
+- Per-file page mode and reading-direction memory
 - Reading history and favorites
-- Favorite toggle with a star button
-- Private browsing mode and clear-history action
-- Thumbnail preview and page navigation
-- Mouse click, keyboard, and mouse-wheel page navigation
-- Slideshow / auto-play reading
+- Favorite toggle using the star button
+- Private browsing mode and history-clearing controls
+- Thumbnail previews and direct page navigation
+- Mouse, keyboard, and scroll-wheel navigation
+- Slideshow and automatic page turning
 - Standard fullscreen and immersive fullscreen modes
-- Floating fullscreen toolbar and progress bar overlays
+- Floating fullscreen toolbar and progress bar
 - Keyboard shortcut panel with clickable actions
-- Chinese, English, Japanese, Korean, Russian, French, German, and Spanish UI
-- macOS “Open With” integration for supported document types
-- Native SwiftUI/AppKit interface
-- Designed for local reading without an account
+- Chinese, English, Japanese, Korean, Russian, French, German, and Spanish interfaces
+- macOS Open With integration for supported file types
+- Native SwiftUI and AppKit interface
+- No account required
 
 ## Requirements
 
@@ -47,8 +48,131 @@ GlassReader is a free-to-use native macOS application for reading comics, PDF do
 
 ## Privacy
 
-GlassReader is intended for local reading. Favorites, reading history, page progress, and reading preferences are stored locally on the Mac. Archive passwords are kept for the current app session so an already-open archive can be revisited without asking again; they are not intended to be uploaded to a server.
+GlassReader is designed for local reading.
 
+Favorites, reading history, page progress, and reading preferences are stored locally on the Mac.
+
+Archive passwords are retained for the current app session so that an already opened archive can be revisited without requesting the password again. GlassReader does not intentionally transmit archive passwords to any remote server.
+
+## Download
+
+Download the latest version from the [Releases](../../releases) page.
+
+After downloading:
+
+1. Extract the ZIP archive.
+2. Move `GlassReader.app` to the Applications folder.
+3. Open GlassReader.
+
+If macOS prevents the app from opening, go to:
+
+`System Settings → Privacy & Security → Open Anyway`
+
+## Feedback and Contributions
+
+Bug reports, feature requests, and pull requests are welcome.
+
+When reporting an issue, please include:
+
+- Your macOS version
+- Your GlassReader version
+- The affected file format
+- Steps to reproduce the problem
+
+## License
+
+Copyright (C) 2026 Chen Yifu (`ifuchen113`)
+
+GlassReader is licensed under the GNU General Public License Version 3.0 only (`GPL-3.0-only`).
+
+See the [LICENSE](LICENSE) file for the complete license terms.
+
+---
+
+# GlassReader 中文说明
+
+一款轻量、原生的 macOS 本地阅读器，适用于漫画、PDF、图片和压缩包。
+
+GlassReader 是一款免费且开源的 macOS 本地阅读应用。它提供简洁的原生界面、灵活的图片显示模式、多标签页、阅读进度记忆，以及沉浸式全屏阅读体验。
+
+## 功能
+
+- 打开本地文件夹、单个文件和受支持的压缩包
+- 支持将文件直接拖入阅读器
+- 支持 ZIP、CBZ、RAR 和 7Z 压缩包
+- 支持密码保护的压缩包
+- 支持 PDF 文档
+- 支持 JPG、JPEG、PNG、WebP、GIF、BMP、TIFF 和 HEIC 图片
+- 支持单页和双页阅读模式
+- 支持从左到右和漫画式从右到左阅读
+- 提供五种图片显示模式：
+  - 适应屏幕
+  - 适应宽度
+  - 原始尺寸
+  - 填充屏幕
+  - 智能适应
+- 支持多标签页阅读，并在重新启动后恢复标签页
+- 记忆每个文件的阅读进度
+- 记忆每个文件的单页或双页模式及阅读方向
+- 支持阅读历史和收藏
+- 可通过星标按钮快速收藏
+- 支持隐私浏览模式和清除历史记录
+- 支持缩略图预览和直接跳转页面
+- 支持鼠标点击、键盘和鼠标滚轮翻页
+- 支持幻灯片播放和自动翻页
+- 支持标准全屏和沉浸式全屏模式
+- 支持浮动全屏工具栏和进度条
+- 提供可点击操作的快捷键面板
+- 支持中文、英文、日文、韩文、俄文、法文、德文和西班牙文界面
+- 支持 macOS“打开方式”集成
+- 使用原生 SwiftUI 和 AppKit 界面
+- 无需注册账号
+
+## 系统要求
+
+- macOS 14.0 或更高版本
+- Apple Silicon Mac
+
+## 隐私说明
+
+GlassReader 专为本地阅读设计。
+
+收藏、阅读历史、页面进度和阅读偏好均保存在 Mac 本地。
+
+压缩包密码只会在当前 App 会话中暂时保留，以便重新访问已经打开的压缩包时无需再次输入密码。GlassReader 不会主动将压缩包密码传输到任何远程服务器。
+
+## 下载
+
+请前往 [Releases](../../releases) 页面下载最新版本。
+
+下载后：
+
+1. 解压 ZIP 文件。
+2. 将 `GlassReader.app` 移动到“应用程序”文件夹。
+3. 打开 GlassReader。
+
+如果 macOS 阻止应用打开，请前往：
+
+`系统设置 → 隐私与安全性 → 仍要打开`
+
+## 反馈与贡献
+
+欢迎提交错误报告、功能建议和 Pull Request。
+
+提交问题时，建议附上：
+
+- macOS 版本
+- GlassReader 版本
+- 出现问题的文件格式
+- 可复现问题的操作步骤
+
+## 许可证
+
+版权所有 © 2026 陈毅夫（`ifuchen113`）
+
+GlassReader 根据 GNU General Public License Version 3.0 only（`GPL-3.0-only`）授权并开源。
+
+完整许可条款请参阅 [LICENSE](LICENSE) 文件。
 ## Download
 
 Download the latest release from the **Releases** page.
