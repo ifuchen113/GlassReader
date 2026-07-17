@@ -1,4 +1,4 @@
-<img width="1470" height="923" alt="image" src="https://github.com/user-attachments/assets/a48ca23d-0866-49e3-99ae-4401873b7dfb" /># GlassReader
+# GlassReader
 
 A lightweight native macOS reader designed for local reading.
 
