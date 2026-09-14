@@ -1,6 +1,7 @@
 # GlassReader
 
 GlassReader 是一款原生 macOS 漫画与图像阅读器，使用 Swift、SwiftUI、AppKit、PDFKit 和 ImageIO 构建。它面向本地阅读，支持文件夹、图片、PDF 和常见漫画压缩包。
+<img width="1192" height="864" alt="image" src="https://github.com/user-attachments/assets/1f0d5c7b-7efb-4324-bc46-b737cd35ee74" />
 
 ## 当前功能
 
@@ -85,6 +86,8 @@ GlassReader 继续采用 GNU General Public License Version 3.0 only（GPL-3.0-o
 # GlassReader — English
 
 GlassReader is a native macOS comic and image reader built with Swift, SwiftUI, AppKit, PDFKit, and ImageIO. It is designed for local reading and supports folders, images, PDF documents, and common comic-book archive formats.
+<img width="1192" height="864" alt="image" src="https://github.com/user-attachments/assets/4ec28c3f-8fa3-485f-9ff2-71a30ad880fa" />
+
 
 ## Features
 
