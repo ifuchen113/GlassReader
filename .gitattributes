@@ -1,0 +1,3 @@
+# Keep the Xcode project generator in the repository without counting it as
+# an application language in GitHub's language summary.
+Scripts/generate_xcodeproj.rb linguist-detectable=false
