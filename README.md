@@ -79,3 +79,87 @@ ruby Scripts/generate_xcodeproj.rb
 ## License
 
 GlassReader 继续采用 GNU General Public License Version 3.0 only（GPL-3.0-only）开源，详见 [LICENSE](LICENSE)。随 App 分发的第三方归档工具采用各自许可证，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+---
+
+# GlassReader — English
+
+GlassReader is a native macOS comic and image reader built with Swift, SwiftUI, AppKit, PDFKit, and ImageIO. It is designed for local reading and supports folders, images, PDF documents, and common comic-book archive formats.
+
+## Features
+
+- Folders and JPG, PNG, WebP, GIF, BMP, TIFF, and HEIC images
+- Paginated PDF reading
+- ZIP/CBZ, RAR/CBR, and 7Z/CB7 archives, including password-protected and nested archives
+- Single-page and two-page layouts, LTR/RTL reading, and spread realignment
+- Fit to screen, fit to width, actual size, and fill screen display modes
+- Multiple tabs, favorites, history, reading progress, and session restoration
+- Thumbnails, progress controls, slideshow, full-screen, and immersive modes
+- Interface text in Chinese, English, Japanese, Korean, Russian, French, German, and Spanish
+
+## Requirements
+
+- macOS 14.0 or later
+- Xcode 16 or later (the project was most recently verified with Xcode 26.6)
+- Swift 6 toolchain
+- Apple Silicon is the primary currently verified architecture
+
+## Running in Xcode
+
+1. Open `GlassReader.xcodeproj`.
+2. Select the shared `GlassReader` scheme.
+3. Select **My Mac** as the run destination.
+4. Build or run the project.
+
+The project has no third-party Swift Package dependencies. The `unar` and `7zz` tools required for archive extraction are stored in `GlassReader/Resources/Tools` and copied into the App Bundle by the Xcode Resources Build Phase.
+
+## Command-Line Builds
+
+Swift Package baseline build:
+
+```bash
+CLANG_MODULE_CACHE_PATH=/tmp/glassreader-swift-cache \
+SWIFT_MODULECACHE_PATH=/tmp/glassreader-swift-cache \
+swift build -c release
+```
+
+Xcode project build:
+
+```bash
+xcodebuild \
+  -project GlassReader.xcodeproj \
+  -scheme GlassReader \
+  -configuration Release \
+  -derivedDataPath .build/xcode \
+  CODE_SIGNING_ALLOWED=NO \
+  ARCHS=arm64 \
+  ONLY_ACTIVE_ARCH=YES \
+  build
+```
+
+## Project Structure
+
+```text
+GlassReader/
+├── App/                 # App entry point and root view
+├── Features/            # Library, Reader, Tabs, Import, FullScreen, Settings
+├── Core/                # Reading, persistence, localization, and core services
+├── Shared/              # Shared models, components, and layout metrics
+└── Resources/           # Icons and archive tools
+```
+
+See [Docs/Architecture.md](Docs/Architecture.md) for architecture details and [Docs/Design.md](Docs/Design.md) for product and interaction notes. The pre-refactor analysis is available in [CurrentArchitectureAnalysis.md](CurrentArchitectureAnalysis.md).
+
+## Maintaining the Xcode Project
+
+The Finder directory structure is the source of truth. After adding, moving, or deleting Swift files, run:
+
+```bash
+ruby Scripts/generate_xcodeproj.rb
+```
+
+The script regenerates Xcode file references, target membership, build phases, and the shared scheme, preventing stale references and duplicate compilation entries.
+
+## License
+
+GlassReader remains open source under the GNU General Public License Version 3.0 only (GPL-3.0-only). See [LICENSE](LICENSE). Third-party archive tools distributed with the app retain their respective licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
