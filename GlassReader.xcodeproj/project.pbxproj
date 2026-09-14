@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0000000000000000000002C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* ContentView.swift */; };
+		B0000000000000000000002D /* GlassReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* GlassReaderApp.swift */; };
+		B0000000000000000000002E /* ReaderLibrary+Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* ReaderLibrary+Persistence.swift */; };
+		B0000000000000000000002F /* ImageFileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* ImageFileLoader.swift */; };
+		B00000000000000000000030 /* PageLoader+Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* PageLoader+Metadata.swift */; };
+		B00000000000000000000031 /* ReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* ReaderError.swift */; };
+		B00000000000000000000032 /* ReaderLibrary+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* ReaderLibrary+Loading.swift */; };
+		B00000000000000000000033 /* LocalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* LocalizationService.swift */; };
+		B00000000000000000000034 /* FullScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* FullScreenController.swift */; };
+		B00000000000000000000035 /* ArchivePasswordPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* ArchivePasswordPrompt.swift */; };
+		B00000000000000000000036 /* ArchivePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000B /* ArchivePasswordView.swift */; };
+		B00000000000000000000037 /* ReaderLibrary+Import.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* ReaderLibrary+Import.swift */; };
+		B00000000000000000000038 /* FavoriteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000D /* FavoriteRow.swift */; };
+		B00000000000000000000039 /* FavoriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000E /* FavoriteItem.swift */; };
+		B0000000000000000000003A /* SidebarListMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000F /* SidebarListMode.swift */; };
+		B0000000000000000000003B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000010 /* SidebarView.swift */; };
+		B0000000000000000000003C /* PageImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* PageImage.swift */; };
+		B0000000000000000000003D /* PageStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* PageStrip.swift */; };
+		B0000000000000000000003E /* PageSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000013 /* PageSurface.swift */; };
+		B0000000000000000000003F /* ReaderControlGlyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000014 /* ReaderControlGlyphs.swift */; };
+		B00000000000000000000040 /* ScrollWheelPagingMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000015 /* ScrollWheelPagingMonitor.swift */; };
+		B00000000000000000000041 /* ShortcutPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000016 /* ShortcutPanel.swift */; };
+		B00000000000000000000042 /* SpreadStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000017 /* SpreadStage.swift */; };
+		B00000000000000000000043 /* ThumbnailPreviewPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000018 /* ThumbnailPreviewPanel.swift */; };
+		B00000000000000000000044 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000019 /* ToolbarView.swift */; };
+		B00000000000000000000045 /* ReaderLibrary+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001A /* ReaderLibrary+Navigation.swift */; };
+		B00000000000000000000046 /* ReaderLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001B /* ReaderLibrary.swift */; };
+		B00000000000000000000047 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001C /* ReaderView.swift */; };
+		B00000000000000000000048 /* SettingsControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001D /* SettingsControls.swift */; };
+		B00000000000000000000049 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001E /* TabBarView.swift */; };
+		B0000000000000000000004A /* ReaderLibrary+Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001F /* ReaderLibrary+Tabs.swift */; };
+		B0000000000000000000004B /* TabModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000020 /* TabModels.swift */; };
+		B0000000000000000000004C /* FlatProgressSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000021 /* FlatProgressSlider.swift */; };
+		B0000000000000000000004D /* ReaderPlaceholders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000022 /* ReaderPlaceholders.swift */; };
+		B0000000000000000000004E /* LayoutMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000023 /* LayoutMetrics.swift */; };
+		B0000000000000000000004F /* ReaderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000024 /* ReaderPage.swift */; };
+		B00000000000000000000050 /* ReadingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000025 /* ReadingDirection.swift */; };
+		B00000000000000000000051 /* ZoomMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000026 /* ZoomMode.swift */; };
+		B00000000000000000000052 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000027 /* AppIcon.icns */; };
+		B00000000000000000000053 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000028 /* AppIcon.png */; };
+		B00000000000000000000054 /* Tools in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000029 /* Tools */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		B00000000000000000000002 /* GlassReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlassReaderApp.swift"; sourceTree = "<group>"; };
+		B00000000000000000000003 /* ReaderLibrary+Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderLibrary+Persistence.swift"; sourceTree = "<group>"; };
+		B00000000000000000000004 /* ImageFileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageFileLoader.swift"; sourceTree = "<group>"; };
+		B00000000000000000000005 /* PageLoader+Metadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PageLoader+Metadata.swift"; sourceTree = "<group>"; };
+		B00000000000000000000006 /* ReaderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderError.swift"; sourceTree = "<group>"; };
+		B00000000000000000000007 /* ReaderLibrary+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderLibrary+Loading.swift"; sourceTree = "<group>"; };
+		B00000000000000000000008 /* LocalizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizationService.swift"; sourceTree = "<group>"; };
+		B00000000000000000000009 /* FullScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FullScreenController.swift"; sourceTree = "<group>"; };
+		B0000000000000000000000A /* ArchivePasswordPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArchivePasswordPrompt.swift"; sourceTree = "<group>"; };
+		B0000000000000000000000B /* ArchivePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArchivePasswordView.swift"; sourceTree = "<group>"; };
+		B0000000000000000000000C /* ReaderLibrary+Import.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderLibrary+Import.swift"; sourceTree = "<group>"; };
+		B0000000000000000000000D /* FavoriteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteRow.swift"; sourceTree = "<group>"; };
+		B0000000000000000000000E /* FavoriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoriteItem.swift"; sourceTree = "<group>"; };
+		B0000000000000000000000F /* SidebarListMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SidebarListMode.swift"; sourceTree = "<group>"; };
+		B00000000000000000000010 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SidebarView.swift"; sourceTree = "<group>"; };
+		B00000000000000000000011 /* PageImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PageImage.swift"; sourceTree = "<group>"; };
+		B00000000000000000000012 /* PageStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PageStrip.swift"; sourceTree = "<group>"; };
+		B00000000000000000000013 /* PageSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PageSurface.swift"; sourceTree = "<group>"; };
+		B00000000000000000000014 /* ReaderControlGlyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderControlGlyphs.swift"; sourceTree = "<group>"; };
+		B00000000000000000000015 /* ScrollWheelPagingMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollWheelPagingMonitor.swift"; sourceTree = "<group>"; };
+		B00000000000000000000016 /* ShortcutPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShortcutPanel.swift"; sourceTree = "<group>"; };
+		B00000000000000000000017 /* SpreadStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadStage.swift"; sourceTree = "<group>"; };
+		B00000000000000000000018 /* ThumbnailPreviewPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThumbnailPreviewPanel.swift"; sourceTree = "<group>"; };
+		B00000000000000000000019 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToolbarView.swift"; sourceTree = "<group>"; };
+		B0000000000000000000001A /* ReaderLibrary+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderLibrary+Navigation.swift"; sourceTree = "<group>"; };
+		B0000000000000000000001B /* ReaderLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderLibrary.swift"; sourceTree = "<group>"; };
+		B0000000000000000000001C /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderView.swift"; sourceTree = "<group>"; };
+		B0000000000000000000001D /* SettingsControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsControls.swift"; sourceTree = "<group>"; };
+		B0000000000000000000001E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabBarView.swift"; sourceTree = "<group>"; };
+		B0000000000000000000001F /* ReaderLibrary+Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderLibrary+Tabs.swift"; sourceTree = "<group>"; };
+		B00000000000000000000020 /* TabModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabModels.swift"; sourceTree = "<group>"; };
+		B00000000000000000000021 /* FlatProgressSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlatProgressSlider.swift"; sourceTree = "<group>"; };
+		B00000000000000000000022 /* ReaderPlaceholders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderPlaceholders.swift"; sourceTree = "<group>"; };
+		B00000000000000000000023 /* LayoutMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LayoutMetrics.swift"; sourceTree = "<group>"; };
+		B00000000000000000000024 /* ReaderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderPage.swift"; sourceTree = "<group>"; };
+		B00000000000000000000025 /* ReadingDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReadingDirection.swift"; sourceTree = "<group>"; };
+		B00000000000000000000026 /* ZoomMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZoomMode.swift"; sourceTree = "<group>"; };
+		B00000000000000000000027 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		B00000000000000000000028 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		B00000000000000000000029 /* Tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tools; sourceTree = "<group>"; };
+		B0000000000000000000002A /* GlassReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlassReader-Info.plist"; sourceTree = "<group>"; };
+		B0000000000000000000002B /* GlassReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00000000000000000000071 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00000000000000000000055 /* GlassReader */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000056 /* App */,
+				B00000000000000000000057 /* Core */,
+				B0000000000000000000005D /* Features */,
+				B00000000000000000000068 /* Resources */,
+				B00000000000000000000069 /* Shared */,
+			);
+			path = "GlassReader";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000056 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* ContentView.swift */,
+				B00000000000000000000002 /* GlassReaderApp.swift */,
+			);
+			path = "App";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000057 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000058 /* Persistence */,
+				B00000000000000000000059 /* Readers */,
+				B0000000000000000000005B /* Services */,
+			);
+			path = "Core";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000058 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000003 /* ReaderLibrary+Persistence.swift */,
+			);
+			path = "Persistence";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000059 /* Readers */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000005A /* Image */,
+				B00000000000000000000005 /* PageLoader+Metadata.swift */,
+				B00000000000000000000006 /* ReaderError.swift */,
+				B00000000000000000000007 /* ReaderLibrary+Loading.swift */,
+			);
+			path = "Readers";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000005A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000004 /* ImageFileLoader.swift */,
+			);
+			path = "Image";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000005B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000005C /* Localization */,
+			);
+			path = "Services";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000005C /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000008 /* LocalizationService.swift */,
+			);
+			path = "Localization";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000005D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000005E /* FullScreen */,
+				B0000000000000000000005F /* Import */,
+				B00000000000000000000060 /* Library */,
+				B00000000000000000000062 /* Reader */,
+				B00000000000000000000064 /* Settings */,
+				B00000000000000000000066 /* Tabs */,
+			);
+			path = "Features";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000005E /* FullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000009 /* FullScreenController.swift */,
+			);
+			path = "FullScreen";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000005F /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000A /* ArchivePasswordPrompt.swift */,
+				B0000000000000000000000B /* ArchivePasswordView.swift */,
+				B0000000000000000000000C /* ReaderLibrary+Import.swift */,
+			);
+			path = "Import";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000060 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000061 /* Components */,
+				B0000000000000000000000E /* FavoriteItem.swift */,
+				B0000000000000000000000F /* SidebarListMode.swift */,
+				B00000000000000000000010 /* SidebarView.swift */,
+			);
+			path = "Library";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000061 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000D /* FavoriteRow.swift */,
+			);
+			path = "Components";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000062 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000063 /* Components */,
+				B0000000000000000000001A /* ReaderLibrary+Navigation.swift */,
+				B0000000000000000000001B /* ReaderLibrary.swift */,
+				B0000000000000000000001C /* ReaderView.swift */,
+			);
+			path = "Reader";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000063 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000011 /* PageImage.swift */,
+				B00000000000000000000012 /* PageStrip.swift */,
+				B00000000000000000000013 /* PageSurface.swift */,
+				B00000000000000000000014 /* ReaderControlGlyphs.swift */,
+				B00000000000000000000015 /* ScrollWheelPagingMonitor.swift */,
+				B00000000000000000000016 /* ShortcutPanel.swift */,
+				B00000000000000000000017 /* SpreadStage.swift */,
+				B00000000000000000000018 /* ThumbnailPreviewPanel.swift */,
+				B00000000000000000000019 /* ToolbarView.swift */,
+			);
+			path = "Components";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000064 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000065 /* Components */,
+			);
+			path = "Settings";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000065 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000001D /* SettingsControls.swift */,
+			);
+			path = "Components";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000066 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000067 /* Components */,
+				B0000000000000000000001F /* ReaderLibrary+Tabs.swift */,
+				B00000000000000000000020 /* TabModels.swift */,
+			);
+			path = "Tabs";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000067 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000001E /* TabBarView.swift */,
+			);
+			path = "Components";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000068 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000027 /* AppIcon.icns */,
+				B00000000000000000000028 /* AppIcon.png */,
+				B00000000000000000000029 /* Tools */,
+			);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		B00000000000000000000069 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000006A /* Components */,
+				B0000000000000000000006B /* DesignSystem */,
+				B0000000000000000000006C /* Models */,
+			);
+			path = "Shared";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000006A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000021 /* FlatProgressSlider.swift */,
+				B00000000000000000000022 /* ReaderPlaceholders.swift */,
+			);
+			path = "Components";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000006B /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000023 /* LayoutMetrics.swift */,
+			);
+			path = "DesignSystem";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000006C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000024 /* ReaderPage.swift */,
+				B00000000000000000000025 /* ReadingDirection.swift */,
+				B00000000000000000000026 /* ZoomMode.swift */,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		B0000000000000000000006D /* Config */ = {isa = PBXGroup; children = (B0000000000000000000002A /* GlassReader-Info.plist */); path = Config; sourceTree = "<group>"; };
+		B0000000000000000000006E /* Products */ = {isa = PBXGroup; children = (B0000000000000000000002B /* GlassReader.app */); name = Products; sourceTree = "<group>"; };
+		B0000000000000000000006F = {isa = PBXGroup; children = (B00000000000000000000055 /* GlassReader */, B0000000000000000000006D /* Config */, B0000000000000000000006E /* Products */); sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00000000000000000000073 /* GlassReader */ = {isa = PBXNativeTarget; buildConfigurationList = B0000000000000000000007A; buildPhases = (B00000000000000000000070 /* Sources */, B00000000000000000000071 /* Frameworks */, B00000000000000000000072 /* Resources */); buildRules = (); dependencies = (); name = GlassReader; productName = GlassReader; productReference = B0000000000000000000002B /* GlassReader.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00000000000000000000074 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2660; LastUpgradeCheck = 2660; TargetAttributes = {B00000000000000000000073 = {CreatedOnToolsVersion = 26.6;};};}; buildConfigurationList = B00000000000000000000079; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh_CN; hasScannedForEncodings = 0; knownRegions = (zh_CN, en, Base); mainGroup = B0000000000000000000006F; productRefGroup = B0000000000000000000006E; projectDirPath = ""; projectRoot = ""; targets = (B00000000000000000000073 /* GlassReader */); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00000000000000000000072 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (B00000000000000000000052 /* AppIcon.icns in Resources */, B00000000000000000000053 /* AppIcon.png in Resources */, B00000000000000000000054 /* Tools in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00000000000000000000070 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B0000000000000000000002C /* ContentView.swift in Sources */, B0000000000000000000002D /* GlassReaderApp.swift in Sources */, B0000000000000000000002E /* ReaderLibrary+Persistence.swift in Sources */, B0000000000000000000002F /* ImageFileLoader.swift in Sources */, B00000000000000000000030 /* PageLoader+Metadata.swift in Sources */, B00000000000000000000031 /* ReaderError.swift in Sources */, B00000000000000000000032 /* ReaderLibrary+Loading.swift in Sources */, B00000000000000000000033 /* LocalizationService.swift in Sources */, B00000000000000000000034 /* FullScreenController.swift in Sources */, B00000000000000000000035 /* ArchivePasswordPrompt.swift in Sources */, B00000000000000000000036 /* ArchivePasswordView.swift in Sources */, B00000000000000000000037 /* ReaderLibrary+Import.swift in Sources */, B00000000000000000000038 /* FavoriteRow.swift in Sources */, B00000000000000000000039 /* FavoriteItem.swift in Sources */, B0000000000000000000003A /* SidebarListMode.swift in Sources */, B0000000000000000000003B /* SidebarView.swift in Sources */, B0000000000000000000003C /* PageImage.swift in Sources */, B0000000000000000000003D /* PageStrip.swift in Sources */, B0000000000000000000003E /* PageSurface.swift in Sources */, B0000000000000000000003F /* ReaderControlGlyphs.swift in Sources */, B00000000000000000000040 /* ScrollWheelPagingMonitor.swift in Sources */, B00000000000000000000041 /* ShortcutPanel.swift in Sources */, B00000000000000000000042 /* SpreadStage.swift in Sources */, B00000000000000000000043 /* ThumbnailPreviewPanel.swift in Sources */, B00000000000000000000044 /* ToolbarView.swift in Sources */, B00000000000000000000045 /* ReaderLibrary+Navigation.swift in Sources */, B00000000000000000000046 /* ReaderLibrary.swift in Sources */, B00000000000000000000047 /* ReaderView.swift in Sources */, B00000000000000000000048 /* SettingsControls.swift in Sources */, B00000000000000000000049 /* TabBarView.swift in Sources */, B0000000000000000000004A /* ReaderLibrary+Tabs.swift in Sources */, B0000000000000000000004B /* TabModels.swift in Sources */, B0000000000000000000004C /* FlatProgressSlider.swift in Sources */, B0000000000000000000004D /* ReaderPlaceholders.swift in Sources */, B0000000000000000000004E /* LayoutMetrics.swift in Sources */, B0000000000000000000004F /* ReaderPage.swift in Sources */, B00000000000000000000050 /* ReadingDirection.swift in Sources */, B00000000000000000000051 /* ZoomMode.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B00000000000000000000075 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug;};
+		B00000000000000000000076 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release;};
+		B00000000000000000000077 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 21; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "Config/GlassReader-Info.plist"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.1.20; PRODUCT_BUNDLE_IDENTIFIER = local.codex.GlassReader; PRODUCT_NAME = GlassReader; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0;}; name = Debug;};
+		B00000000000000000000078 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 21; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "Config/GlassReader-Info.plist"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.1.20; PRODUCT_BUNDLE_IDENTIFIER = local.codex.GlassReader; PRODUCT_NAME = GlassReader; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0;}; name = Release;};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00000000000000000000079 = {isa = XCConfigurationList; buildConfigurations = (B00000000000000000000075 /* Debug */, B00000000000000000000076 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+		B0000000000000000000007A = {isa = XCConfigurationList; buildConfigurations = (B00000000000000000000077 /* Debug */, B00000000000000000000078 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+/* End XCConfigurationList section */
+	};
+	rootObject = B00000000000000000000074 /* Project object */;
+}
